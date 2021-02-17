@@ -2,10 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
     color: gray;
     cursor: pointer;
 }
+.headerOption__title{
+    font-size: 12px;
+    font-weight: 300;
+}
 .headerOption:hover{
     color: black;
+}
+.headerOption__icon {
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important  ;
 }
